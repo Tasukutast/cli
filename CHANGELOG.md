@@ -1,5 +1,16 @@
 # Changelog
 
+## [10.8.1](https://github.com/npm/cli/compare/v10.8.0...v10.8.1) (2024-05-17)
+
+### Bug Fixes
+
+* [`b1db070`](https://github.com/npm/cli/commit/b1db070cb4a497fd91fd61cf197d28b5d47274bb) [#7534](https://github.com/npm/cli/pull/7534) refactor: use output.buffer and set explicit json mode in query (#7534) (@lukekarrys)
+* [`53cda32`](https://github.com/npm/cli/commit/53cda32aa35f3a592fb0ddf37e43c028f93ef613) [#7542](https://github.com/npm/cli/pull/7542) refactor ls to use output.buffer for json (#7542) (@lukekarrys)
+* [`61d5771`](https://github.com/npm/cli/commit/61d57719e6443978c5e9a91ca7a63397be3065fa) [#7541](https://github.com/npm/cli/pull/7541) remove json.stringify from all commands (#7541) (@lukekarrys)
+* [`4dfc7d2`](https://github.com/npm/cli/commit/4dfc7d20b58eaa3d231ef5dc86b9802e1c0d0e68) [#7540](https://github.com/npm/cli/pull/7540) pass strings to JSON.stringify in --json mode (#7540) (@lukekarrys)
+* [`3cefdf6`](https://github.com/npm/cli/commit/3cefdf6eaab5bfb4371149f674dc95e9b9c54853) [#7538](https://github.com/npm/cli/pull/7538) outdated: return array for outdated deps from multiple workspaces (@lukekarrys)
+* [`ef4c975`](https://github.com/npm/cli/commit/ef4c975f2784f70ab86a3e7e6e40c99279e5a3e3) [#7508](https://github.com/npm/cli/pull/7508) view: dont immediately exit on first workspace 404 (#7508) (@lukekarrys)
+
 ## [10.8.0](https://github.com/npm/cli/compare/v10.7.0...v10.8.0) (2024-05-15)
 
 ### Features
